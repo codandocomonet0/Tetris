@@ -1,0 +1,100 @@
+body{
+    background-color: blanchedalmond;
+}
+
+.window{
+    width: 95vw;
+    height: 95vh;
+    display: grid;
+}
+
+.title-div{
+    grid-row: 1;
+    grid-column-start: 1; 
+    grid-column-end: 3;
+    height: 10vh;
+    text-align: center;
+}
+
+.buttons-div{
+    grid-row: 2;
+    grid-column-start: 1; 
+    grid-column-end: 3;
+    height: fit-content;
+    text-align: center;
+}
+
+.tetris-grid{
+    grid-column: 1;
+    grid-row: 3/5;
+    display: grid;
+    height:70vh ;
+    width: 20vw;
+    margin-left: auto;
+    grid-template-columns: repeat(10,1fr)
+}
+
+.item{
+    background-color: #59ec1f;
+    margin: 0.5px;
+    border-radius: 0.2vh;
+    border-radius: 0.2vw;
+}
+
+.sidebar{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 1vw;
+    width: 20vw;
+    height: 10vh;
+}
+
+.score-table{
+    background-color: mediumaquamarine;
+    border-radius: 20px;
+    margin-bottom: 4vh;
+    margin-left: 1vw;
+    width: 14vw;
+    height: 50vh;
+}
+
+.mini-grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    height: 10vh;
+    width: 10vw;
+}
+
+.mini-item{
+    background-color: cornflowerblue;
+    border-radius: 0.2vh;
+    border-radius: 0.2vw;
+    margin: 0.5px;
+}
+
+.score-div{
+    grid-column: 2;
+    grid-row: 1;
+    height: 20vh;
+    text-align: center;
+}
+
+.h3{
+    margin-top: 0vh;
+    margin-right: 3vw;
+}
+
+button{
+    border-radius: 1vh;
+}
+
+#start-button{
+    background-color: green;    
+}
+
+#restart-button{
+    background-color: orange;
+}
+
+
+
